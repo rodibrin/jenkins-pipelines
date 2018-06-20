@@ -1,0 +1,10 @@
+general:
+steps:
+  mtaBuild:
+        mtaJarLocation: /etc/mta
+  neoDeploy:
+        dockerImage: piper/neo
+        neoHome: /etc/neo-java-web-sdk
+        credentialsId: NEO_CREDENTIALS_ID
+        account: d046169trial
+        host: hanatrial.ondemand.com
